@@ -1,0 +1,112 @@
+/* Responsive Design */
+
+/* Universal Stylings*/
+
+html {
+    background-color: lightgray;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+}
+
+
+
+/* Header Section */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    border-bottom: 2px solid seashell;
+    background-color: black;
+}
+
+header h1 {
+    width: 400px;
+    padding-left: 30px;
+}
+
+header nav {
+    width: 300px;
+    font-size: 25px;
+    margin-top: 8%;
+    text-align: right;
+}
+
+header a {
+    text-decoration: none;
+    color: seashell;
+    transition: background-color 1s;
+}
+
+header a:hover {
+    background-color: grey;
+}
+
+.nav {
+    justify-content: right;
+}
+
+.title {
+    justify-content: left;
+}
+
+
+/*Main Section*/
+
+.main {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: lightskyblue;
+    color: black;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.main img {
+ border-radius: 20px;
+ display: block;
+ margin: 0 auto;
+ width: 80%;
+}
+
+/* Main Bottom Section*/
+
+.mainbottom {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: lightskyblue;
+    color: black;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.m1,
+.m2,
+.m3 {
+    padding: 15px;
+    border-radius: 20px;
+    transition: background-color 1s;
+    width: 60%;
+}
+
+.mainbottom h1 {
+    text-align: center;
+}
+
+.m1:hover {
+    background-color: grey;
+}
+
+.m2:hover {
+    background-color: grey;
+}
+
+.m3:hover {
+    background-color: grey;
+}
