@@ -1,0 +1,136 @@
+/* Responsive Design */
+
+/* Universal Stylings*/
+
+html {
+    background-color: lightgray;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* Header Section */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    border-bottom: 2px solid seashell;
+    background-color: black;
+}
+
+header h1 {
+    width: 400px;
+    padding-left: 30px;
+}
+
+header nav {
+    width: 300px;
+    font-size: 25px;
+    margin-top: 8%;
+    text-align: right;
+}
+
+header a {
+    text-decoration: none;
+    color: seashell;
+    transition: background-color 1s;
+}
+
+header a:hover {
+    background-color: grey;
+}
+
+.nav {
+    justify-content: right;
+}
+
+.title {
+    justify-content: left;
+}
+
+
+/*Top Block Section*/
+
+.TopBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: lightskyblue;
+    color: black;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.follow h2 {
+    text-align: center;
+}
+
+.favicon {
+    display: flex;
+    font-size: 60px;
+}
+
+.favicon a {
+    margin: 0 1em 0 1em;
+    padding: 20px;
+}
+
+
+/* Bottom Block Section */
+
+.BottomBlock {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: lightskyblue;
+    color: black;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.left {
+    border-right: 2px solid black;
+}
+
+.photo {
+    border-bottom: 2px solid black;
+    transition: background-color 1s;
+}
+
+.sound {
+    transition: background-color 1s;
+}
+
+.photo:hover {
+    background-color: grey;
+}
+
+.sound:hover {
+    background-color: grey;
+}
