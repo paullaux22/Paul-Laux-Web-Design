@@ -52,3 +52,50 @@ header a:hover {
 .title {
     justify-content: left;
 }
+
+
+
+/* Resume Section */
+
+.resume {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: lightskyblue;
+    color: black;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.work {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: lightskyblue;
+    color: black;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.skills {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: lightskyblue;
+    color: black;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+.education {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.workex {
+    text-decoration: underline;
+}
