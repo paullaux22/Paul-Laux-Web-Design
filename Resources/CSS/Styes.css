@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     color: seashell;
 }
 
@@ -73,12 +73,18 @@ header a:hover {
  width: 80%;
 }
 
+.main h1 {
+    text-align: center;
+    text-decoration: bold;
+}
+
 /* Main Bottom Section*/
 
 .mainbottom {
     width: 80%;
     margin: auto;
     margin-top: 40px;
+    margin-bottom: 40px;
     background-color: lightskyblue;
     color: black;
     padding: 5px;
@@ -109,4 +115,12 @@ header a:hover {
 
 .m3:hover {
     background-color: grey;
+}
+
+
+/* Footer Section */
+
+.footer {
+    color: black;
+    border-top: 2px solid darkgray;
 }
