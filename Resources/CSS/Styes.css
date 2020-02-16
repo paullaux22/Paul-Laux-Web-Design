@@ -3,12 +3,18 @@
 /* Universal Stylings*/
 
 html {
-    background-color: lightgray;
+    background-image: url(../MainImage.jpg);
+    background-size: cover;
 }
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
     color: seashell;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
 
 
@@ -122,5 +128,5 @@ header a:hover {
 
 .footer {
     color: black;
-    border-top: 2px solid darkgray;
+    border-top: 2px solid black;
 }

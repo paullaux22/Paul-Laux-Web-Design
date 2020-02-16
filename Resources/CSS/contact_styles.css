@@ -3,7 +3,8 @@
 /* Universal Stylings*/
 
 html {
-    background-color: lightgray;
+    background-image: url(../MainImage.jpg);
+    background-size: cover;
 }
 
 body {
@@ -144,5 +145,5 @@ header a:hover {
 
 .footer {
     color: black;
-    border-top: 2px solid darkgray;
+    border-top: 2px solid black;
 }
