@@ -14,9 +14,8 @@ body {
 
 a {
     color: black;
-    text-decoration: none;
+    text-decoration: underline;
 }
-
 
 
 /* Header Section */
