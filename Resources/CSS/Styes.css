@@ -1,5 +1,57 @@
 /* Responsive Design */
 
+@media only screen and (max-width: 1000px) {
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title {
+        text-align: center;
+        justify-content: center;
+        padding-right: 10%;
+    }
+
+    .nav {
+        text-align: center;
+        justify-content: center;
+        padding-right: 10%;
+    }
+
+    .nav span {
+        padding-right: 3%;
+    }
+
+    .mainbottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .m1,
+    .m2,
+    .m3 {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .mainbottom .m1 {
+        width: 80%;
+    }
+
+    .mainbottom .m2 {
+        width: 80%;
+    }
+
+    .mainbottom .m3 {
+        width: 80%;
+    }
+
+}
+
 /* Universal Stylings*/
 
 html {

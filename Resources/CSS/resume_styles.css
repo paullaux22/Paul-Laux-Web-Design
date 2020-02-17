@@ -1,5 +1,33 @@
 /* Responsive Design */
 
+@media only screen and (max-width: 1000px) {
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title {
+        text-align: center;
+        justify-content: center;
+        padding-right: 10%;
+    }
+
+    .nav {
+        text-align: center;
+        justify-content: center;
+        padding-right: 10%;
+    }
+
+    .nav span {
+        padding-right: 3%;
+    }
+
+}
+
+
 /* Universal Stylings*/
 
 html {
